@@ -1,0 +1,26 @@
+dialect: brain-app/v1
+id: ask
+name: Ask
+version: 0.1.0
+description: "Ask a question and get an answer from your own documents, with the sources it used."
+license: MIT
+author:
+  name: Gregory German
+  contact: gregorygerman777@gmail.com
+  url: https://github.com/gregorygerman777-hub
+repo: https://github.com/gregorygerman777-hub/brain-app-ask
+tab:
+  label: Ask
+  route: /ask
+  order: 170
+entries:
+  ui_bundle: dist
+requires_layers:
+  - layer: episodic
+    mode: read
+  - layer: semantic
+    mode: read
+  - layer: procedural
+    mode: read
+permissions:
+  - llm.invoke
