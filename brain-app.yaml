@@ -1,7 +1,7 @@
 dialect: brain-app/v1
 id: ask
 name: Ask
-version: 0.1.0
+version: 0.1.1
 description: "Ask a question and get an answer from your own documents, with the sources it used."
 license: MIT
 author:
