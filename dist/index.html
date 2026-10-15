@@ -44,7 +44,7 @@ th,td{text-align:left;padding:8px;border-top:1px solid var(--border)}
 <label for="q">Question</label>
 <textarea id="q" style="min-height:96px" placeholder="What did I decide about the move?"></textarea>
 <div class="row"><button class="primary" id="go">Ask</button><span class="muted">Ctrl or Cmd + Enter</span></div>
-<div class="status" id="status"></div>
+<div class="status" id="status" role="status" aria-live="polite"></div>
 <div id="history"></div>
 </main>
 <script>
